@@ -14,7 +14,7 @@
             <div class="col-lg-4 col-md-8 col-sm-9">
                 <div class="single-blog mt-30">
                     <div class="blog-image">
-                        <img src="assets/images/blog/b-1.jpg" alt="Blog">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/blog/b-1.jpg" alt="Blog">
                     </div>
                     <div class="blog-content">
                         <h4 class="blog-title"><a href="#">Hired Releases 2023 Brand Health.</a></h4>
@@ -25,7 +25,7 @@
             <div class="col-lg-4 col-md-8 col-sm-9">
                 <div class="single-blog mt-30">
                     <div class="blog-image">
-                        <img src="assets/images/blog/b-2.jpg" alt="Blog">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/blog/b-2.jpg" alt="Blog">
                     </div>
                     <div class="blog-content">
                         <h4 class="blog-title"><a href="#">Hired Releases 2023 Brand Health.</a></h4>
@@ -36,7 +36,7 @@
             <div class="col-lg-4 col-md-8 col-sm-9">
                 <div class="single-blog mt-30">
                     <div class="blog-image">
-                        <img src="assets/images/blog/b-3.jpg" alt="Blog">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/blog/b-3.jpg" alt="Blog">
                     </div>
                     <div class="blog-content">
                         <h4 class="blog-title"><a href="#">Hired Releases 2023 Brand Health.</a></h4>

@@ -1,6 +1,6 @@
 <!--====== CALL TO ACTION PART START ======-->
 
-<section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(assets/images/call-to-action.jpg)">
+<section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(<?= get_template_directory_uri()?>/assets/images/call-to-action.jpg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-9">

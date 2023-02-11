@@ -14,13 +14,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-work text-center mt-30">
                     <div class="work-image">
-                        <img src="assets/images/work/w-1.jpg" alt="work">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/work/w-1.jpg" alt="work">
                     </div>
                     <div class="work-overlay">
                         <div class="work-content">
                             <h3 class="work-title">Product Design</h3>
                             <ul>
-                                <li><a class="image-popup" href="assets/images/work/w-1.jpg"><i class="lni-plus"></i></a></li>
+                                <li><a class="image-popup" href="<?= get_template_directory_uri()?>/assets/images/work/w-1.jpg"><i class="lni-plus"></i></a></li>
                                 <li><a href="#"><i class="lni-link"></i></a></li>
                             </ul>
                         </div>
@@ -30,13 +30,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-work text-center mt-30">
                     <div class="work-image">
-                        <img src="assets/images/work/w-2.jpg" alt="work">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/work/w-2.jpg" alt="work">
                     </div>
                     <div class="work-overlay">
                         <div class="work-content">
                             <h3 class="work-title">Product Design</h3>
                             <ul>
-                                <li><a class="image-popup" href="assets/images/work/w-2.jpg"><i class="lni-plus"></i></a></li>
+                                <li><a class="image-popup" href="<?= get_template_directory_uri()?>/assets/images/work/w-2.jpg"><i class="lni-plus"></i></a></li>
                                 <li><a href="#"><i class="lni-link"></i></a></li>
                             </ul>
                         </div>
@@ -46,13 +46,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-work text-center mt-30">
                     <div class="work-image">
-                        <img src="assets/images/work/w-3.jpg" alt="work">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/work/w-3.jpg" alt="work">
                     </div>
                     <div class="work-overlay">
                         <div class="work-content">
                             <h3 class="work-title">Product Design</h3>
                             <ul>
-                                <li><a class="image-popup" href="assets/images/work/w-3.jpg"><i class="lni-plus"></i></a></li>
+                                <li><a class="image-popup" href="<?= get_template_directory_uri()?>/assets/images/work/w-3.jpg"><i class="lni-plus"></i></a></li>
                                 <li><a href="#"><i class="lni-link"></i></a></li>
                             </ul>
                         </div>
@@ -62,13 +62,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-work text-center mt-30">
                     <div class="work-image">
-                        <img src="assets/images/work/w-4.jpg" alt="work">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/work/w-4.jpg" alt="work">
                     </div>
                     <div class="work-overlay">
                         <div class="work-content">
                             <h3 class="work-title">Product Design</h3>
                             <ul>
-                                <li><a class="image-popup" href="assets/images/work/w-4.jpg"><i class="lni-plus"></i></a></li>
+                                <li><a class="image-popup" href="<?= get_template_directory_uri()?>/assets/images/work/w-4.jpg"><i class="lni-plus"></i></a></li>
                                 <li><a href="#"><i class="lni-link"></i></a></li>
                             </ul>
                         </div>
@@ -78,13 +78,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-work text-center mt-30">
                     <div class="work-image">
-                        <img src="assets/images/work/w-5.jpg" alt="work">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/work/w-5.jpg" alt="work">
                     </div>
                     <div class="work-overlay">
                         <div class="work-content">
                             <h3 class="work-title">Product Design</h3>
                             <ul>
-                                <li><a class="image-popup" href="assets/images/work/w-5.jpg"><i class="lni-plus"></i></a></li>
+                                <li><a class="image-popup" href="<?= get_template_directory_uri()?>/assets/images/work/w-5.jpg"><i class="lni-plus"></i></a></li>
                                 <li><a href="#"><i class="lni-link"></i></a></li>
                             </ul>
                         </div>
@@ -94,13 +94,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-work text-center mt-30">
                     <div class="work-image">
-                        <img src="assets/images/work/w-6.jpg" alt="work">
+                        <img src="<?= get_template_directory_uri()?>/assets/images/work/w-6.jpg" alt="work">
                     </div>
                     <div class="work-overlay">
                         <div class="work-content">
                             <h3 class="work-title">Product Design</h3>
                             <ul>
-                                <li><a class="image-popup" href="assets/images/work/w-6.jpg"><i class="lni-plus"></i></a></li>
+                                <li><a class="image-popup" href="<?= get_template_directory_uri()?>/assets/images/work/w-6.jpg"><i class="lni-plus"></i></a></li>
                                 <li><a href="#"><i class="lni-link"></i></a></li>
                             </ul>
                         </div>

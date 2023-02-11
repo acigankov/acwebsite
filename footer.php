@@ -20,7 +20,7 @@
                 <div class="col-lg-8">
                     <div class="footer-content text-center">
                         <a href="index.html">
-                            <img src="assets/images/logo-2.png" alt="Logo">
+                            <img src="<?= get_template_directory_uri()?>/assets/images/logo-2.png" alt="Logo">
                         </a>
                         <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <ul>
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-text text-center pt-20">
-                        <p>Copyright © 2022. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                        <p>Copyright © 2022. Template Crafted by UIdeck</p>
                     </div> <!-- copyright text -->
                 </div>
             </div> <!-- row -->
