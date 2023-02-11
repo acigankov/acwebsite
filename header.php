@@ -16,6 +16,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
 	<?php wp_head(); ?>
 </head>
@@ -114,8 +116,8 @@
                 <div class="row align-items-center">
                     <div class="col-xl-5 col-lg-6">
                         <div class="header-content-right">
-                            <h4 class="sub-title">Hello, I’m</h4>
-                            <h1 class="title">Mark Parker</h1>
+                            <h4 class="sub-title">Привет! Я </h4>
+                            <h1 class="title">Артём Цыганков</h1>
                             <p>A Freelance UI Designer & Web Developer</p>
                             <a class="main-btn" href="#work">View my Work</a>
                         </div> <!-- header content right -->
