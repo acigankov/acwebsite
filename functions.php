@@ -138,11 +138,57 @@ add_action( 'widgets_init', 'acwebsite_widgets_init' );
  * Enqueue scripts and styles.
  */
 function acwebsite_scripts() {
+
+    //STYLES
 	wp_enqueue_style( 'acwebsite-style', get_stylesheet_uri(), array(), _S_VERSION );
+
+	//Bootstrap css
+    wp_enqueue_style( 'acwebsite-bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), _S_VERSION );
+
+    //Line Icons css
+    wp_enqueue_style( 'acwebsite-lineicons', get_template_directory_uri() . '/assets/css/LineIcons.css', array(), _S_VERSION );
+
+    //Magnific Popup css
+    wp_enqueue_style( 'acwebsite-magnificpopup.css', get_template_directory_uri() . '/assets/css/magnific-popup.css', array(), _S_VERSION );
+
+    //Default css
+    wp_enqueue_style( 'acwebsite-default', get_template_directory_uri() . '/assets/css/default.css', array(), _S_VERSION );
     wp_enqueue_style( 'acwebsite-main', get_template_directory_uri() . '/assets/css/style.css', array(), _S_VERSION );
+
 	wp_style_add_data( 'acwebsite-style', 'rtl', 'replace' );
 
+
+	//SCRIPTS
 	wp_enqueue_script( 'acwebsite-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), _S_VERSION, true );
+
+	//jquery js
+    wp_enqueue_script( 'acwebsite-modernizer', get_template_directory_uri() . '/assets/js/vendor/modernizr-3.6.0.min.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'acwebsite-jquery', get_template_directory_uri() . '/assets/js/vendor/jquery-1.12.4.min.js', array(), _S_VERSION, true );
+
+    //Bootstrap js
+    wp_enqueue_script( 'acwebsite-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'acwebsite-popper', get_template_directory_uri() . '/assets/js/popper.min.js', array(), _S_VERSION, true );
+
+    //Magnific Popup js
+    wp_enqueue_script( 'acwebsite-magnificpopup', get_template_directory_uri() . '/assets/js/jquery.magnific-popup.min.js', array(), _S_VERSION, true );
+
+    //Parallax js
+    wp_enqueue_script( 'acwebsite-Parallax', get_template_directory_uri() . '/assets/js/parallax.min.js', array(), _S_VERSION, true );
+
+    //Counter Up js
+    wp_enqueue_script( 'acwebsite-waypoints', get_template_directory_uri() . '/assets/js/waypoints.min.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'acwebsite-counterup', get_template_directory_uri() . '/assets/js/jquery.counterup.min.js', array(), _S_VERSION, true );
+
+    //Appear js
+    wp_enqueue_script( 'acwebsite-appear', get_template_directory_uri() . '/assets/js/jquery.appear.min.js', array(), _S_VERSION, true );
+
+    //Scrolling js
+    wp_enqueue_script( 'acwebsite-scrolling', get_template_directory_uri() . '/assets/js/scrolling-nav.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'acwebsite-easing', get_template_directory_uri() . '/assets/js/jquery.easing.min.js', array(), _S_VERSION, true );
+
+    //Main js
+    wp_enqueue_script( 'acwebsite-main', get_template_directory_uri() . '/assets/js/main.js', array(), _S_VERSION, true );
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

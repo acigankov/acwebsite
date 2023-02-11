@@ -24,9 +24,6 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'acwebsite' ); ?></a>
-
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -83,34 +80,34 @@
 
         <div id="parallax" class="header-content d-flex align-items-center">
             <div class="header-shape shape-one layer" data-depth="0.10">
-                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-1.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-tow layer" data-depth="0.30">
-                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-2.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-three layer" data-depth="0.40">
-                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-3.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-fore layer" data-depth="0.60">
-                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-2.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-five layer" data-depth="0.20">
-                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-1.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-six layer" data-depth="0.15">
-                <img src="assets/images/banner/shape/shape-4.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-4.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-seven layer" data-depth="0.50">
-                <img src="assets/images/banner/shape/shape-5.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-5.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-eight layer" data-depth="0.40">
-                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-3.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-nine layer" data-depth="0.20">
-                <img src="assets/images/banner/shape/shape-6.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-6.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="header-shape shape-ten layer" data-depth="0.30">
-                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+                <img src="<?= get_template_directory_uri()?>/assets/images/banner/shape/shape-3.png" alt="Shape">
             </div> <!-- header shape -->
             <div class="container">
                 <div class="row align-items-center">
@@ -124,7 +121,7 @@
                     </div>
                     <div class="col-lg-6 offset-xl-1">
                         <div class="header-image d-none d-lg-block">
-                            <img src="assets/images/banner/hero.png" alt="hero">
+                            <img src="<?= get_template_directory_uri()?>/assets/images/banner/hero.png" alt="hero">
                         </div> <!-- header image -->
                     </div>
                 </div> <!-- row -->
