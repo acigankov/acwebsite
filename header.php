@@ -119,8 +119,8 @@
                         <div class="header-content-right">
                             <h4 class="sub-title">Привет! Я </h4>
                             <h1 class="title">Артём Цыганков</h1>
-                            <p>A Freelance UI Designer & Web Developer</p>
-                            <a class="main-btn" href="#work">View my Work</a>
+                            <p>Front End & Web Разработчик</p>
+                            <a class="main-btn" href="#work">Посмотреть работы</a>
                         </div> <!-- header content right -->
                     </div>
                     <div class="col-lg-6 offset-xl-1">
