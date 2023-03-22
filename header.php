@@ -16,6 +16,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
+
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="<?= get_template_directory_uri()?>/assets/images/favicon.png" type="image/png">
 
@@ -64,12 +68,12 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#service">Services</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#work">Portfolio</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#blog">Blog</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
+                                    <li class="nav-item active"><a class="page-scroll" href="#home">Главная</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#about">Инфо</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#service">Услуги</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#work">Работы</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#blog">Блог</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#contact">Контакты</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->
@@ -115,8 +119,8 @@
                         <div class="header-content-right">
                             <h4 class="sub-title">Привет! Я </h4>
                             <h1 class="title">Артём Цыганков</h1>
-                            <p>A Freelance UI Designer & Web Developer</p>
-                            <a class="main-btn" href="#work">View my Work</a>
+                            <p>Front End & Web Разработчик</p>
+                            <a class="main-btn" href="#work">Посмотреть работы</a>
                         </div> <!-- header content right -->
                     </div>
                     <div class="col-lg-6 offset-xl-1">
