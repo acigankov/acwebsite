@@ -952,3 +952,16 @@ a:visited {
 * {
 	scroll-behavior: smooth;
 }
+.header-image img {
+	z-index: -1;
+}
+.header-image::before {
+	height: 88%;
+	top: 52%;
+	left: -2px;
+}
+.header-image::after {
+	left: -2px;
+	bottom: 10px;
+	z-index: 11;
+}
