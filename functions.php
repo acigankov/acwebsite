@@ -152,8 +152,8 @@ function acwebsite_scripts() {
     wp_enqueue_style( 'acwebsite-magnificpopup.css', get_template_directory_uri() . '/assets/css/magnific-popup.css', array(), _S_VERSION );
 
     //Default css
-    wp_enqueue_style( 'acwebsite-default', get_template_directory_uri() . '/assets/css/default.css', array(), _S_VERSION );
     wp_enqueue_style( 'acwebsite-main', get_template_directory_uri() . '/assets/css/style.css', array(), _S_VERSION );
+    wp_enqueue_style( 'acwebsite-default', get_template_directory_uri() . '/assets/css/default.css', array(), _S_VERSION );
 
 	wp_style_add_data( 'acwebsite-style', 'rtl', 'replace' );
 

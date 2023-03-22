@@ -939,7 +939,16 @@
 .logo {
 	max-width: 150px;
 }
-
 a:visited {
 	color: #fff;
+}
+.navigation .navbar .navbar-nav .nav-item a {
+	text-transform: capitalize;
+}
+.header-content-right .sub-title  {
+	text-transform: capitalize;
+}
+
+* {
+	scroll-behavior: smooth;
 }
