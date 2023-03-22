@@ -939,3 +939,7 @@
 .logo {
 	max-width: 150px;
 }
+
+a:visited {
+	color: #fff;
+}
