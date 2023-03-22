@@ -934,3 +934,8 @@
 [data-overlay="9"]::before {
 	opacity: 0.9;
 }
+
+/*Сюда свои стили*/
+.logo {
+	max-width: 150px;
+}
