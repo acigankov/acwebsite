@@ -111,28 +111,15 @@
     });
     
     
-    //Animate the scroll to yop
-    $('.back-to-top').on('click', function(event) {
-        event.preventDefault();
-        
-        $('html, body').animate({
-            scrollTop: 0,
-        }, 1500);
-    });
-    
+    //Animate the scroll to top - это уже не нужно, из-за нового супер свойства css scroll-behavior:smooth
+    // $('.back-to-top').on('click', function(event) {
+    //     event.preventDefault();
+    //
+    //     $('html, body').animate({
+    //         scrollTop: 0,
+    //     }, 1500);
+    // });
 
-    
     //===== 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 }(jQuery));
