@@ -5,16 +5,21 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
-                        <h2 class="title">About Me</h2>
-                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                        <h2 class="title">Обо мне</h2>
+                        <p>Web-разработчик. Опыт с 2016 года. В основном занимаюсь фронтендом. Люблю делать красивости. Бэкенд также входит в мои интересы. </p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-content mt-50">
-                        <h5 class="about-title">Hi There! I'm Mark Parker</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h5 class="about-title">Привет! Я Артём Цыганков</h5>
+                        <p>Верстаю валидные шаблоны/письма по psd/figma макету, по картинкам, тексту, голосовым сообщениям. <br>
+
+                            Работаю с WordPress (доработывал плагины, натяжка шаблона), Yii2, Js, jquery, Bootstrap, SASS/SCSSб, gulp.<br>
+
+                            Разработал сайты ресторану, сайт организаторам проведения игр квиз (с возможностью играть онлайн после оплаты), личный сайт тату-мастера, сайт доставки правильного питания по диете Певзнера, сайт доставки правильного питания от одной из бьюти-блоггеров. <br>
+                            Занимаюсь внешним видом в большом проекте на базе Yii2, веду темизацию.</p>
                         <ul class="clearfix">
                             <li>
                                 <div class="single-info d-flex align-items-center">
@@ -22,7 +27,7 @@
                                         <i class="lni-calendar"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Date of birth:</span> 8 June 1995</p>
+                                        <p><span>ДР:</span> 26 Июня 1986</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -32,7 +37,7 @@
                                         <i class="lni-envelope"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Email:</span> parker@mysite.com</p>
+                                        <p><span>Email:</span> <a href="mailto:acigankov@inbox.ru?subject=Хочу предложить работу">acigankov@inbox.ru</a></p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -42,7 +47,7 @@
                                         <i class="lni-phone-handset"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Phone:</span> +1-202-555-0138</p>
+                                        <p><span>Телеграм:</span> @acigankov</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -52,7 +57,7 @@
                                         <i class="lni-map-marker"></i>
                                     </div>
                                     <div class="info-text">
-                                        <p><span>Location:</span> 4373, El Centro, CA</p>
+                                        <p><span>Локация:</span> Москва</p>
                                     </div>
                                 </div> <!-- single info -->
                             </li>
@@ -66,62 +71,94 @@
                                 <h6 class="skill-title">HTML</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
-                                        <span class="counter">80</span>
+                                        <span class="counter">91</span>
                                     </div>
                                     %
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="80"></div>
+                                    <div class="bar progress-line" data-width="91"></div>
                                 </div>
                             </div>
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">CSS</h6>
+                                <h6 class="skill-title">CSS/SCSS</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
-                                        <span class="counter">60</span>
+                                        <span class="counter">96</span>
                                     </div>
                                     %
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="60"></div>
+                                    <div class="bar progress-line" data-width="96"></div>
                                 </div>
                             </div>
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">Photoshop</h6>
+                                <h6 class="skill-title">Photoshop/Figma</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
-                                        <span class="counter">50</span>
+                                        <span class="counter">64</span>
                                     </div>
                                     %
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="50"></div>
+                                    <div class="bar progress-line" data-width="64"></div>
                                 </div>
                             </div>
                         </div> <!-- skill item -->
                         <div class="skill-item mt-25">
                             <div class="skill-header">
-                                <h6 class="skill-title">Sketch</h6>
+                                <h6 class="skill-title">JS</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
-                                        <span class="counter">90</span>
+                                        <span class="counter">81</span>
                                     </div>
                                     %
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="90"></div>
+                                    <div class="bar progress-line" data-width="81"></div>
+                                </div>
+                            </div>
+                        </div> <!-- skill item -->
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">PHP</h6>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">88</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="88"></div>
+                                </div>
+                            </div>
+                        </div> <!-- skill item -->
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Wordpress</h6>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">77</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="77"></div>
                                 </div>
                             </div>
                         </div> <!-- skill item -->
