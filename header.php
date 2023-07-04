@@ -136,10 +136,9 @@
                         <div class="col-lg-12">
                             <div class="header-social-icon">
                                 <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni-behance-original"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                                    <li><a href="https://vk.com/acigankov" target="_blank"><i class="lni lni-vk"></i></a></li>
+                                    <li><a href="https://github.com/acigankov" target="_blank"><i class="lni lni-github-original"></i></a></li>
+                                    <li><a href="https://t.me/acigankov" target="_blank"><i class="lni lni-telegram"></i></a></li>
                                 </ul>
                             </div> <!-- header social -->
                         </div>
