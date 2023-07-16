@@ -19,7 +19,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="footer-content text-center">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="logo" src="<?= get_template_directory_uri()?>/assets/images/logo-2.png" alt="Logo">
                         </a>
                         <p class="mt-">Web-разработчик. Опыт с 2016 года. В основном занимаюсь фронтендом. Люблю делать красивости.</p>
@@ -50,7 +50,7 @@
 
 <!--====== BACK TOP TOP PART START ======-->
 
-<a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+<a href="/" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
 <!--====== BACK TOP TOP PART ENDS ======-->
 
