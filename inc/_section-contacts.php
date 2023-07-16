@@ -48,30 +48,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="contact-form pt-30">
-                    <form id="contact-form" action="assets/contact.php">
-                        <div class="single-form">
-                            <input type="text" name="name" placeholder="Имя">
-                        </div> <!-- single form -->
-                        <div class="single-form">
-                            <input type="email" name="email" placeholder="Email">
-                        </div> <!-- single form -->
-                        <div class="single-form">
-                            <textarea name="message" placeholder="Сообщение"></textarea>
-                        </div> <!-- single form -->
-                        <p class="form-message"></p>
-                        <div class="single-form">
-                            <button class="main-btn" type="submit">Send Message</button>
-                        </div> <!-- single form -->
-                    </form>
+                    <?= do_shortcode('[contact-form-7 id="6" title="Форма обратной связи на главной"]');?>
                 </div> <!-- contact form -->
             </div>
-<!--            <div class="col-lg-6">-->
-<!--                <div class="contact-map mt-60">-->
-<!--                    <div class="gmap_canvas">-->
-<!--                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
-<!--                    </div>-->
-<!--                </div>  contact map -->
-<!--            </div>-->
         </div> <!-- row -->
     </div> <!-- container -->
 </section>

@@ -1771,4 +1771,18 @@ p.form-message.success, p.form-message.error {
       line-height: 54px;
       cursor: pointer; }
 
+/*OVERRIDE*/
+.wpcf7-submit {
+  width: auto !important;
+  color: #fff !important;
+  background-color: #754ef9 !important;
+  border:none !important;
+  border-radius: 50px !important;
+}
+
+.wpcf7-submit:hover {
+  background-color: #fff  !important;
+  color: #754ef9  !important;
+}
+
 /*# sourceMappingURL=style.css.map */
