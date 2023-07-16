@@ -22,12 +22,11 @@
                         <a href="index.html">
                             <img class="logo" src="<?= get_template_directory_uri()?>/assets/images/logo-2.png" alt="Logo">
                         </a>
-                        <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="mt-">Web-разработчик. Опыт с 2016 года. В основном занимаюсь фронтендом. Люблю делать красивости.</p>
                         <ul>
-                            <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni-pinterest"></i></a></li>
-                            <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                            <li><a href="https://vk.com/acigankov" target="_blank"><i class="lni lni-vk"></i></a></li>
+                            <li><a href="https://github.com/acigankov" target="_blank"><i class="lni lni-github-original"></i></a></li>
+                            <li><a href="https://t.me/acigankov" target="_blank"><i class="lni lni-telegram"></i></a></li>
                         </ul>
                     </div> <!-- footer content -->
                 </div>
@@ -39,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-text text-center pt-20">
-                        <p>Copyright © 2022. Template Crafted by UIdeck</p>
+                        <p>© 2022. Acweb </p>
                     </div> <!-- copyright text -->
                 </div>
             </div> <!-- row -->
