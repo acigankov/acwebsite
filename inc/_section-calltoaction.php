@@ -5,11 +5,11 @@
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-9">
                 <div class="call-action-content text-center">
-                    <h2 class="action-title">Have any project on mind?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua nostrud.</p>
+                    <h2 class="action-title">Есть проект или идея? </h2>
+                    <p>Есил у Вас есть в раззработке проект или идея для проекта, давайте подумааем и осуществим вместе!</p>
                     <ul>
-                        <li><a class="main-btn custom" href="#">download cv</a></li>
-                        <li><a class="main-btn custom-2" href="#">hire me</a></li>
+                        <li><a class="main-btn custom" href="<?= get_template_directory_uri() . '/assets/docs/cv-acigankov.pdf'?>">Скачать резюме</a></li>
+                        <li><a class="main-btn custom-2" href="#contact">Написать</a></li>
                     </ul>
                 </div> <!-- call action content -->
             </div>
