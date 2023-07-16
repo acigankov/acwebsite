@@ -5,8 +5,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center pb-25">
-                    <h2 class="title">Get In Touch</h2>
-                    <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                    <h2 class="title">Будем на связи</h2>
+                    <p>Я всегда на связи, отвечааю очень быстро. Если есть ТЗ, присылайте сразу на оценку</p>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
@@ -14,23 +14,22 @@
             <div class="col-lg-4 col-md-6 col-sm-7">
                 <div class="contact-box text-center mt-30">
                     <div class="contact-icon">
-                        <i class="lni-map-marker"></i>
+                        <i class="lni-vk"></i>
                     </div>
                     <div class="contact-content">
-                        <h6 class="contact-title">Address</h6>
-                        <p>123 Stree New York City , United States Of America 750</p>
+                        <h6 class="contact-title">Вконтакте</h6>
+                        <p><a href="https://vk.com/acigankov" target="_blank"></a>https://vk.com/acigankov</p>
                     </div>
                 </div> <!-- contact box -->
             </div>
             <div class="col-lg-4 col-md-6 col-sm-7">
                 <div class="contact-box text-center mt-30">
                     <div class="contact-icon">
-                        <i class="lni-phone"></i>
+                        <i class="lni-telegram"></i>
                     </div>
                     <div class="contact-content">
-                        <h6 class="contact-title">Phone</h6>
-                        <p>+931 2222 5555</p>
-                        <p>+547 5554 6663</p>
+                        <h6 class="contact-title">Телеграм</h6>
+                        <p><a href="https://t.me/acigankov" target="_blank"></a>@acigankov</p>
                     </div>
                 </div> <!-- contact box -->
             </div>
@@ -41,8 +40,7 @@
                     </div>
                     <div class="contact-content">
                         <h6 class="contact-title">Email</h6>
-                        <p>support@yourmail.com</p>
-                        <p>info@helpline.com</p>
+                        <p>acigankov@inbox.ru</p>
                     </div>
                 </div> <!-- contact box -->
             </div>
@@ -52,13 +50,13 @@
                 <div class="contact-form pt-30">
                     <form id="contact-form" action="assets/contact.php">
                         <div class="single-form">
-                            <input type="text" name="name" placeholder="Name">
+                            <input type="text" name="name" placeholder="Имя">
                         </div> <!-- single form -->
                         <div class="single-form">
                             <input type="email" name="email" placeholder="Email">
                         </div> <!-- single form -->
                         <div class="single-form">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Сообщение"></textarea>
                         </div> <!-- single form -->
                         <p class="form-message"></p>
                         <div class="single-form">

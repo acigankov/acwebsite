@@ -139,6 +139,7 @@
                                     <li><a href="https://vk.com/acigankov" target="_blank"><i class="lni lni-vk"></i></a></li>
                                     <li><a href="https://github.com/acigankov" target="_blank"><i class="lni lni-github-original"></i></a></li>
                                     <li><a href="https://t.me/acigankov" target="_blank"><i class="lni lni-telegram"></i></a></li>
+                                    <li><a href="mailto:acigankov@inbox.ru" target="_blank"><i class="lni lni-envelope"></i></a></li>
                                 </ul>
                             </div> <!-- header social -->
                         </div>
