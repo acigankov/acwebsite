@@ -5,8 +5,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center pb-30">
-                    <h2 class="title">My Services</h2>
-                    <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                    <h2 class="title">Мои услуги</h2>
+                    <p>На практике, мы конечно же будем договариватся индивидуально под каждый запрос</p>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
@@ -17,8 +17,8 @@
                         <i class="lni-code-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title"><a href="#">Web Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                        <h4 class="service-title">Верстка под напильником</h4>
+                        <p>Доработки и рекомендации по Вашему макету</p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -28,8 +28,8 @@
                         <i class="lni-color-pallet"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title"><a href="#contact">Graphic Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                        <h4 class="service-title">Работа с графикой</h4>
+                        <p>Подготовка материалов, графики и картинок для закгрузки в CMS. </p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -39,8 +39,8 @@
                         <i class="lni-mobile"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title"><a href="#">App Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                        <h4 class="service-title">Мобильная адаптация</h4>
+                        <p>Разработка, доработка и верстка Ваших дизайнов под мобилки</p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -50,8 +50,8 @@
                         <i class="lni-vector"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title"><a href="#">Illustration Design</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                        <h4 class="service-title">Разрабтка логики</h4>
+                        <p>Анимации, декорации и логика интерфейса. То, что остается "за кадром" для пользователя</p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -61,8 +61,8 @@
                         <i class="lni-website"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title"><a href="#">Web Development</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                        <h4 class="service-title">Web Раззрабтка</h4>
+                        <p>Полный цикл подготовки, верстки шаблона, натяжки на CMS. Разработка интерфейсов</p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -72,8 +72,8 @@
                         <i class="lni-support"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title"><a href="#">Consultancy and Support</a></h4>
-                        <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+                        <h4 class="service-title">Поддержка</h4>
+                        <p>Поддержка и рекомендации 24/7 даже вне зоны доступа к ноутбуку. Я всегда на связи</p>
                     </div>
                 </div> <!-- single service -->
             </div>
