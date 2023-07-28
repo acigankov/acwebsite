@@ -19,7 +19,7 @@
                     </div>
                     <div class="pricing-body">
                         <div class="pricing-text">
-                            <p>Оплачивается кол-во часов. </p>
+                            <p>Оплата по часам</p>
                             <span class="price">от 600/час.</span>
                         </div>
                         <div class="pricing-list">
@@ -45,7 +45,7 @@
                     </div>
                     <div class="pricing-body">
                         <div class="pricing-text">
-                            <p>Фиксированная оплата раз в месяц.</p>
+                            <p>Фиксированная оплата </p>
                             <span class="price">от 5000 руб/мес.</span>
                         </div>
                         <div class="pricing-list">
@@ -53,7 +53,7 @@
                                 <li>Неограниченное кол-во задач</li>
                                 <li>Включены все доработки</li>
                                 <li>Поддержка 24/7</li>
-                                <li>Поддердка хостинга</li>
+                                <li>Поддержка хостинга</li>
                                 <li>Контент-менеджмент</li>
                                 <li>Консультации</li>
                             </ul>
