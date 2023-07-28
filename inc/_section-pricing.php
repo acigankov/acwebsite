@@ -5,34 +5,35 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center pb-25">
-                    <h2 class="title">My Pricing Plans</h2>
-                    <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                    <h2 class="title">Тарифы</h2>
+                    <p>Я работаю как самозанятый. Для покрытия наших рисков можем заключить договор.</p>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
         <div class="row justify-content-center">
+
             <div class="col-lg-4 col-md-8 col-sm-9">
-                <div class="single-pricing text-center mt-30">
+                <div class="single-pricing active text-center mt-30">
                     <div class="pricing-package">
-                        <h4 class="package-title">Basic</h4>
+                        <h4 class="package-title">Стандарт</h4>
                     </div>
                     <div class="pricing-body">
                         <div class="pricing-text">
-                            <p>Simple project management for teams and small businesses.</p>
-                            <span class="price">$19.00</span>
+                            <p>Оплачивается кол-во часов. </p>
+                            <span class="price">от 600/час.</span>
                         </div>
                         <div class="pricing-list">
                             <ul>
-                                <li>Unlimited Tasks</li>
-                                <li>Unlimited Public</li>
-                                <li>Private Projects</li>
-                                <li>Unlimited Teams</li>
-                                <li>All Integrations</li>
-                                <li>Public API</li>
+                                <li>Неограниченное кол-во задач</li>
+                                <li>Все задачи по часам</li>
+                                <li>Верстка по Вашему макету</li>
+                                <li>Натяжка верстки на CMS</li>
+                                <li>Натяжка готового шаблона</li>
+                                <li>Оценка задач</li>
                             </ul>
                         </div>
                         <div class="pricing-btn">
-                            <a class="main-btn" href="#contact">get quote</a>
+                            <a class="main-btn" href="#contact">Выбрать</a>
                         </div>
                     </div>
                 </div> <!-- single pricing -->
@@ -40,51 +41,25 @@
             <div class="col-lg-4 col-md-8 col-sm-9">
                 <div class="single-pricing active text-center mt-30">
                     <div class="pricing-package">
-                        <h4 class="package-title">Standard</h4>
+                        <h4 class="package-title">Премиум</h4>
                     </div>
                     <div class="pricing-body">
                         <div class="pricing-text">
-                            <p>Simple project management for teams and small businesses.</p>
-                            <span class="price">$39.00</span>
+                            <p>Фиксированная оплата раз в месяц.</p>
+                            <span class="price">от 5000 руб/мес.</span>
                         </div>
                         <div class="pricing-list">
                             <ul>
-                                <li>Unlimited Tasks</li>
-                                <li>Unlimited Public</li>
-                                <li>Private Projects</li>
-                                <li>Unlimited Teams</li>
-                                <li>All Integrations</li>
-                                <li>Public API</li>
+                                <li>Неограниченное кол-во задач</li>
+                                <li>Включены все доработки</li>
+                                <li>Поддержка 24/7</li>
+                                <li>Поддердка хостинга</li>
+                                <li>Контент-менеджмент</li>
+                                <li>Консультации</li>
                             </ul>
                         </div>
                         <div class="pricing-btn">
-                            <a class="main-btn" href="#contact">get quote</a>
-                        </div>
-                    </div>
-                </div> <!-- single pricing -->
-            </div>
-            <div class="col-lg-4 col-md-8 col-sm-9">
-                <div class="single-pricing text-center mt-30">
-                    <div class="pricing-package">
-                        <h4 class="package-title">Premium</h4>
-                    </div>
-                    <div class="pricing-body">
-                        <div class="pricing-text">
-                            <p>Simple project management for teams and small businesses.</p>
-                            <span class="price">$29.00</span>
-                        </div>
-                        <div class="pricing-list">
-                            <ul>
-                                <li>Unlimited Tasks</li>
-                                <li>Unlimited Public</li>
-                                <li>Private Projects</li>
-                                <li>Unlimited Teams</li>
-                                <li>All Integrations</li>
-                                <li>Public API</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-btn">
-                            <a class="main-btn" href="#contact">get quote</a>
+                            <a class="main-btn" href="#contact">Выбрать</a>
                         </div>
                     </div>
                 </div> <!-- single pricing -->
