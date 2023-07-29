@@ -1785,4 +1785,7 @@ p.form-message.success, p.form-message.error {
   color: #754ef9  !important;
 }
 
+.single-work .work-image img {
+  max-height: 190px;
+}
 /*# sourceMappingURL=style.css.map */

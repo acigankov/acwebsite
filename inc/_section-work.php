@@ -33,7 +33,7 @@
                                 <h3 class="work-title"><?= the_field('title')?></h3>
                                 <ul>
                                     <li><a class="image-popup" href="<?= get_field('img') ? the_field('img') : get_template_directory_uri() . '/assets/images/work/w-1.jpg'?>"><i class="lni-plus"></i></a></li>
-                                    <li><a href="<?= the_field('url')?>" target="_blank"><i class="lni-link"></i></a></li>
+                                    <li><a href="<?= get_field('url') ? the_field('url') : '/'?>" target="_blank"><i class="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
