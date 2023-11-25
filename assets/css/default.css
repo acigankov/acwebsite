@@ -965,3 +965,61 @@ a:visited {
 	bottom: 10px;
 	z-index: 11;
 }
+
+/*OVERRIDE*/
+.wpcf7-submit {
+	width: auto !important;
+	color: #fff !important;
+	background-color: #754ef9 !important;
+	border:none !important;
+	border-radius: 50px !important;
+}
+
+.wpcf7-submit:hover {
+	background-color: #fff  !important;
+	color: #754ef9  !important;
+}
+
+.single-work .work-image img {
+	max-height: 190px;
+}
+
+.error404-content {
+	padding: 150px 0;
+	text-align: center;
+}
+
+.error404-title {
+	font-size: 10em;
+}
+
+.error404-subtitle {
+	font-size: 3em;
+	margin-bottom: 35px;
+}
+
+.error404-text {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.sertificate-link {
+	transition: opacity 0.3s ease;
+}
+
+@media (hover) {
+	.sertificate-link:hover {
+		opacity: 0.7;
+	}
+}
+
+.sertificate-img {
+	border-radius: 6px;
+}
+
+/*Works*/
+.single-work .work-overlay .work-content ul li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
