@@ -227,3 +227,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 require get_template_directory() . '/post-types/post-portfolio.php';
 
+/**
+ * Post type Sertificates.
+ */
+require get_template_directory() . '/post-types/post-sertificates.php';
+
+

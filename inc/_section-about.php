@@ -7,10 +7,12 @@
                     <div class="section-title text-center">
                         <h2 class="title">Обо мне</h2>
                         <p>Web-разработчик. Опыт с 2016 года. В основном занимаюсь фронтендом. Люблю делать красивости. Бэкенд также входит в мои интересы. </p>
-                    </div> <!-- section title -->
+                    </div>
+                    <!-- section title -->
                 </div>
-            </div> <!-- row -->
-            <div class="row">
+            </div>
+            <!-- row -->
+            <div class="row mb-50">
                 <div class="col-lg-6">
                     <div class="about-content mt-50">
                         <h5 class="about-title">Привет! Я Артём Цыганков</h5>
@@ -164,7 +166,32 @@
                         </div> <!-- skill item -->
                     </div> <!-- about skills -->
                 </div>
-            </div> <!-- row -->
+            </div>
+            <!-- row -->
+
+            <?php //собираем посты по типу
+            $thisPostId = get_the_ID();
+            $posts = get_posts(array(
+                'numberposts' => 100,
+                'post_type' => 'sertificates',
+                'orderby' => 'id',
+                'order' => 'ASC',
+                'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+            ));
+            ?>
+
+            <div class="row">
+                <?php foreach ($posts as $post) { setup_postdata($post); ?>
+                    <div class="col-md-6 col-lg-3 mb-20">
+                        <a class="sertificate-link" href="<?= get_field('url') ? the_field('url') :  '/'?>" target="_blank">
+                            <img class="sertificate-img" src="<?= get_field('img') ? the_field('img') : get_template_directory_uri() . '/assets/images/work/w-1.jpg'?>" alt="<?= the_field('title')?>">
+                        </a>
+                    </div>
+                <?php } wp_reset_postdata(); // сброс постов ?>
+            </div>
+            <!-- /.row -->
+
+
         </div> <!-- container -->
     </section>
 
