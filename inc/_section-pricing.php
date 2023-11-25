@@ -20,7 +20,7 @@
                     <div class="pricing-body">
                         <div class="pricing-text">
                             <p>Оплата по часам</p>
-                            <span class="price">от 600/час.</span>
+                            <span class="price">500 руб/час.</span>
                         </div>
                         <div class="pricing-list">
                             <ul>
@@ -46,7 +46,7 @@
                     <div class="pricing-body">
                         <div class="pricing-text">
                             <p>Фиксированная оплата </p>
-                            <span class="price">от 5000 руб/мес.</span>
+                            <span class="price">5000 руб/мес.</span>
                         </div>
                         <div class="pricing-list">
                             <ul>
