@@ -1788,4 +1788,25 @@ p.form-message.success, p.form-message.error {
 .single-work .work-image img {
   max-height: 190px;
 }
+
+.error404-content {
+  padding: 150px 0;
+  text-align: center;
+}
+
+.error404-title {
+  font-size: 10em;
+}
+
+.error404-subtitle {
+  font-size: 3em;
+  margin-bottom: 35px;
+}
+
+.error404-text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
 /*# sourceMappingURL=style.css.map */

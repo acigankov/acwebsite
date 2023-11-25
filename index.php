@@ -16,6 +16,7 @@ get_header();
 
     <main >
 
+        <?php include_once('inc/_section-hero.php'); ?>
         <?php include_once('inc/_section-about.php'); ?>
         <?php include_once('inc/_section-services.php'); ?>
         <?php include_once('inc/_section-calltoaction.php'); ?>
