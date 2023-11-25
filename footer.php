@@ -14,7 +14,7 @@
 <!--====== FOOTER PART START ======-->
 
 <footer id="footer" class="footer-area">
-    <div class="footer-widget pt-130 pb-130">
+    <div class="footer-widget pt-100 pb-40">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -28,6 +28,13 @@
                             <li><a href="https://github.com/acigankov" target="_blank"><i class="lni lni-github-original"></i></a></li>
                             <li><a href="https://t.me/acigankov" target="_blank"><i class="lni lni-telegram"></i></a></li>
                         </ul>
+                    </div> <!-- footer content -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="footer-content text-center">
+                        <p class="small">*Не является публичной офертой.</p>
                     </div> <!-- footer content -->
                 </div>
             </div> <!-- row -->
