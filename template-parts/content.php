@@ -10,52 +10,57 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+    <div class="container">
 
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				acwebsite_posted_on();
-				acwebsite_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+        <header class="entry-header">
+            <?php
+            if ( is_singular() ) :
+                the_title( '<h1 class="entry-title">', '</h1>' );
+            else :
+                the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+            endif;
 
-	<?php acwebsite_post_thumbnail(); ?>
+            if ( 'post' === get_post_type() ) :
+                ?>
+                <div class="entry-meta">
+                    <?php
+                    acwebsite_posted_on();
+                    acwebsite_posted_by();
+                    ?>
+                </div><!-- .entry-meta -->
+            <?php endif; ?>
+        </header><!-- .entry-header -->
 
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'acwebsite' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
+        <?php acwebsite_post_thumbnail(); ?>
 
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'acwebsite' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
+        <div class="entry-content">
+            <?php
+            the_content(
+                sprintf(
+                    wp_kses(
+                    /* translators: %s: Name of current post. Only visible to screen readers */
+                        __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'acwebsite' ),
+                        array(
+                            'span' => array(
+                                'class' => array(),
+                            ),
+                        )
+                    ),
+                    wp_kses_post( get_the_title() )
+                )
+            );
+
+            wp_link_pages(
+                array(
+                    'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'acwebsite' ),
+                    'after'  => '</div>',
+                )
+            );
+            ?>
+        </div><!-- .entry-content -->
+    </div>
+    <!-- /.container -->
+
 
 	<footer class="entry-footer">
 		<?php acwebsite_entry_footer(); ?>

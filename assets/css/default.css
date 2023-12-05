@@ -1028,3 +1028,12 @@ a:visited {
 .header-content {
 	margin-top: 77px;
 }
+
+/*blog*/
+.single-blog .blog-image {
+	min-height: 370px;
+}
+
+.single-blog .blog-content {
+	width: 100%;
+}

@@ -52,7 +52,7 @@
     <!--====== HEADER PART START ======-->
 
     <header id="home" class="header-area">
-        <div class="navigation fixed-top">
+        <div class="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
