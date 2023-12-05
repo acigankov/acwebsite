@@ -8,7 +8,7 @@
  *
  * @package acwebsite
  */
-
+$homeUrl = home_url( $path = '/', $scheme = 'https' );
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
