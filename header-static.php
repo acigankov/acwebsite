@@ -68,12 +68,12 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active"><a class="page-scroll" href="#home">Начало</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#about">Обо мне</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#service">Услуги</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#work">Работы</a></li>
+                                    <li class="nav-item active"><a class="page-scroll" href="<?= $homeUrl ?>#home">Начало</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#about">Обо мне</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#service">Услуги</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#work">Работы</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="/blog">Блог</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#contact">Контакты</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#contact">Контакты</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->
