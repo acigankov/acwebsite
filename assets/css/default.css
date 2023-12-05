@@ -1037,7 +1037,8 @@ a:visited {
 .single-blog .blog-content {
 	width: 100%;
 }
-/*мега лайфхак как убрать админ бар на фронте)*/
+/* убрал админбар вниз, чтобы не мешал*/
 #wpadminbar {
-	display: none !important;
+	top: auto;
+	bottom: 0;
 }
