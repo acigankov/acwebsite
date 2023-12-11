@@ -939,9 +939,6 @@
 .logo {
 	max-width: 150px;
 }
-a:visited {
-	color: #fff;
-}
 .navigation .navbar .navbar-nav .nav-item a {
 	text-transform: capitalize;
 }
@@ -1041,4 +1038,36 @@ a:visited {
 #wpadminbar {
 	top: auto;
 	bottom: 0;
+}
+
+/*обнуление стандартных стилей*/
+.post, .page {
+	margin: 0;
+}
+
+/*Теги*/
+.tags-links a {
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 2rem;
+	padding: 0 1rem;
+	margin-right: 0.5rem;
+	border-radius: 3px;
+	background: #e2e2e2;
+	text-decoration: none;
+	color: #333333;
+	position: relative;
+}
+
+.tags-links a:last-child {
+	margin-right: 0;
+}
+
+.tags-links a:hover, .tags-links a:focus {
+	color: #FFFFFF;
+	background: #151515;
+}
+
+.cat-links {
+	margin-bottom: 12px;
 }

@@ -7,45 +7,51 @@
  * @package acwebsite
  */
 
-get_header();
+get_header('static');
 ?>
 
 	<main id="primary" class="site-main">
+        <section class="pt-60 pb-80">
+            <div class="container">
 
-		<?php if ( have_posts() ) : ?>
+                <div class="row justify-content-center">
+                    <div class="section-title text-center">
+                        <h1 class="title"><?= single_cat_title( '<h1 class="page-title">', '</h1>' );?></h1>
+                    </div>
+                    <!-- section title -->
+                </div>
 
-			<header class="page-header">
-				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+                <div class="row justify-content-center loh">
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+                    <?php if ( have_posts() ) : ?>
+                        <?php
+                        /* Start the Loop */
+                        while ( have_posts() ) :
+                            the_post();
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+                            /*
+                             * Include the Post-Type-specific template for the content.
+                             * If you want to override this in a child theme, then include a file
+                             * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+                             */
 
-			endwhile;
+                            get_template_part( 'template-parts/content', get_post_type() );
 
-			the_posts_navigation();
+                        endwhile;
 
-		else :
+                    else :
 
-			get_template_part( 'template-parts/content', 'none' );
+                        get_template_part( 'template-parts/content', 'none' );
 
-		endif;
-		?>
+                    endif;
+                    ?>
+                </div>
 
-	</main><!-- #main -->
+            </div>
+            <!-- /.container -->
+        </section>
+    </main><!-- #main -->
 
 <?php
-get_sidebar();
+
 get_footer();

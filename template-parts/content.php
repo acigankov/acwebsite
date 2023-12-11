@@ -9,60 +9,69 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div class="container">
+<?php if (is_single()) : ?>
+    <article id="post-<?php the_ID(); ?>" <?php post_class('pt-60 pb-60'); ?>>
+        <div class="container">
 
-        <header class="entry-header">
-            <?php
-            if ( is_singular() ) :
-                the_title( '<h1 class="entry-title">', '</h1>' );
-            else :
-                the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-            endif;
-
-            if ( 'post' === get_post_type() ) :
+            <div class="section-title pb-30">
+                <?php the_title( '<h1 class="title">', '</h1>' );
+                   if ( 'post' === get_post_type() ) :
                 ?>
-                <div class="entry-meta">
-                    <?php
-                    acwebsite_posted_on();
-                    acwebsite_posted_by();
-                    ?>
-                </div><!-- .entry-meta -->
-            <?php endif; ?>
-        </header><!-- .entry-header -->
+                    <div class="entry-meta">
+                        <?php
+                        acwebsite_posted_by();
+                        echo '<span style="margin-right:5px"></span>';
+                        acwebsite_posted_on();
 
-        <?php acwebsite_post_thumbnail(); ?>
+                        ?>
+                    </div><!-- .entry-meta -->
+                <?php endif; ?>
+            </div><!-- .entry-header -->
 
-        <div class="entry-content">
-            <?php
-            the_content(
-                sprintf(
-                    wp_kses(
-                    /* translators: %s: Name of current post. Only visible to screen readers */
-                        __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'acwebsite' ),
-                        array(
-                            'span' => array(
-                                'class' => array(),
-                            ),
-                        )
-                    ),
-                    wp_kses_post( get_the_title() )
-                )
-            );
+            <?php acwebsite_post_thumbnail(); ?>
 
-            wp_link_pages(
-                array(
-                    'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'acwebsite' ),
-                    'after'  => '</div>',
-                )
-            );
-            ?>
-        </div><!-- .entry-content -->
+            <div class="entry-content ">
+                <?php
+                the_content(
+                    sprintf(
+                        wp_kses(
+                        /* translators: %s: Name of current post. Only visible to screen readers */
+                            __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'acwebsite' ),
+                            array(
+                                'span' => array(
+                                    'class' => array(),
+                                ),
+                            )
+                        ),
+                        wp_kses_post( get_the_title() )
+                    )
+                );
+
+                wp_link_pages(
+                    array(
+                        'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'acwebsite' ),
+                        'after'  => '</div>',
+                    )
+                );
+                ?>
+            </div><!-- .entry-content -->
+            <?php acwebsite_entry_footer(); ?>
+        </div>
+        <!-- /.container -->
+
+    </article><!-- #post-<?php the_ID(); ?> -->
+<?php endif; ?>
+
+<?php if (is_category()) : ?>
+    <div class="col-lg-4 col-md-8 col-sm-9">
+        <div class="single-blog mt-30">
+            <div class="blog-image">
+                <?= the_post_thumbnail( 'full' );?>
+            </div>
+            <div class="blog-content">
+                <h4 class="blog-title"><a href="<?= the_permalink()?>"><?= the_title()?></a></h4>
+                <span><time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished"><?php echo get_the_date(); ?></time></span>
+            </div>
+        </div> <!-- single blog -->
     </div>
-    <!-- /.container -->
-
-
-	<footer class="entry-footer">
-		<?php acwebsite_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+<?php endif; ?>
