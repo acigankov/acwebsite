@@ -5,7 +5,7 @@ get_header('static');
 ?>
 
 	<main id="primary" class="site-main">
-        <section class="pt-125 pb-130">
+        <section class="pt-60 pb-80">
             <div class="container">
 
                 <div class="row justify-content-center">
@@ -15,7 +15,7 @@ get_header('static');
                     <!-- section title -->
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mb-30">
                     <?php //собираем посты по типу
                     $thisPostId = get_the_ID();
                     $posts = get_posts(array(
@@ -42,34 +42,9 @@ get_header('static');
                     <?php } wp_reset_postdata(); // сброс постов ?>
                 </div>
 
-
-                    <?php
-                $categories = get_categories( array(
-                    'orderby' => 'name',
-                    'order'   => 'ASC',
-                    'hide_empty' => false
-                ) );
-
-                foreach( $categories as $category ) {
-                    $category_link = sprintf(
-                        '<a href="%1$s" alt="%2$s">%3$s</a>',
-                        esc_url( get_category_link( $category->term_id ) ),
-                        esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ),
-                        esc_html( $category->name )
-                    );
-
-                    echo '<p>' . sprintf( esc_html__( 'Category: %s', 'textdomain' ), $category_link ) . '</p> ';
-                    echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
-                    echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
-                }
-                ?>
-
             </div>
             <!-- /.container -->
         </section>
-
-
-
 
 	</main><!-- #main -->
 
