@@ -977,9 +977,13 @@
 	color: #754ef9  !important;
 }
 
-.single-work .work-image img {
-	max-height: 190px;
+@media screen and (min-width: 600px) {
+	.single-work .work-image img {
+		max-height: 190px;
+	}
 }
+
+
 
 .error404-content {
 	padding: 150px 0;
