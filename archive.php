@@ -21,7 +21,7 @@ get_header('static');
                     <!-- section title -->
                 </div>
 
-                <div class="row justify-content-center loh">
+                <div class="row justify-content-center">
 
                     <?php if ( have_posts() ) : ?>
                         <?php

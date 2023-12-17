@@ -130,7 +130,7 @@ if ( ! function_exists( 'acwebsite_post_thumbnail' ) ) :
 		if ( is_singular() ) :
 			?>
 
-			<div class="post-thumbnail">
+			<div class="post-thumbnail mb-30">
 				<?php the_post_thumbnail(); ?>
 			</div><!-- .post-thumbnail -->
 

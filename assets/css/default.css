@@ -1034,11 +1034,7 @@
 .single-blog .blog-content {
 	width: 100%;
 }
-/* убрал админбар вниз, чтобы не мешал*/
-#wpadminbar {
-	top: auto;
-	bottom: 0;
-}
+
 
 /*обнуление стандартных стилей*/
 .post, .page {

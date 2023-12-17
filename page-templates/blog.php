@@ -27,7 +27,7 @@ get_header('static');
                     ?>
                     <?php foreach ($posts as $post) { setup_postdata($post); ?>
 
-                        <div class="col-lg-4 col-md-8 col-sm-9">
+                        <div class="col-lg-4 col-md-8">
                             <div class="single-blog mt-30">
                                 <div class="blog-image">
                                     <?= the_post_thumbnail( 'full' );?>
