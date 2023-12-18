@@ -1031,14 +1031,26 @@
 }
 
 /*blog*/
+.single-blog  {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .single-blog .blog-image {
-	min-height: 370px;
+	height: 200px;
 }
 
 .single-blog .blog-content {
 	width: 100%;
+	position: static;
 }
 
+h4.blog-title {
+	height: 56px;
+	overflow: hidden;
+	word-break: break-word;
+}
 
 /*обнуление стандартных стилей*/
 .post, .page {
@@ -1057,6 +1069,10 @@
 	text-decoration: none;
 	color: #333333;
 	position: relative;
+}
+
+.tags-links a::before {
+	content: '#';
 }
 
 .tags-links a:last-child {

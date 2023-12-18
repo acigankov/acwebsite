@@ -13,7 +13,7 @@
     <article id="post-<?php the_ID(); ?>" <?php post_class('pt-60 pb-60'); ?>>
         <div class="container">
 
-            <div class="section-title pb-30">
+            <header class="section-title pb-30">
                 <?php the_title( '<h1 class="title">', '</h1>' );
                    if ( 'post' === get_post_type() ) :
                 ?>
@@ -26,7 +26,7 @@
                         ?>
                     </div><!-- .entry-meta -->
                 <?php endif; ?>
-            </div><!-- .entry-header -->
+            </header><!-- .entry-header -->
 
             <?php acwebsite_post_thumbnail(); ?>
 
@@ -55,7 +55,10 @@
                 );
                 ?>
             </div><!-- .entry-content -->
-            <?php acwebsite_entry_footer(); ?>
+            <footer class="entry-footer">
+                <?php acwebsite_entry_footer(); ?>
+            </footer>
+            <!-- /.entry-footer -->
         </div>
         <!-- /.container -->
 
