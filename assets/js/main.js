@@ -41,7 +41,7 @@
     
     //===== Section Menu Active
 
-    var scrollLink = $('.page-scroll');
+    var scrollLink = $('.navbar-homepage .page-scroll');
         // Active link switching
         $(window).scroll(function() {
         var scrollbarLocation = $(this).scrollTop();

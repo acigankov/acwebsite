@@ -67,12 +67,12 @@ $homeUrl = home_url( $path = '/', $scheme = 'https' );
                             </button>
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
+                                <ul class="navbar-nav navbar-homepage ml-auto">
                                     <li class="nav-item active"><a class="page-scroll" href="<?= $homeUrl ?>#home">Начало</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#about">Обо мне</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#service">Услуги</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#work">Работы</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="/blog">Блог</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="/blog/#blog">Блог</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#contact">Контакты</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
