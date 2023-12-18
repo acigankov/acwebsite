@@ -72,7 +72,7 @@ $homeUrl = home_url( $path = '/', $scheme = 'https' );
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#about">Обо мне</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#service">Услуги</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#work">Работы</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="/blog">Блог</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#blog">Блог</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="<?= $homeUrl ?>#contact">Контакты</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
