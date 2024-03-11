@@ -22,7 +22,7 @@
                         <a href="/">
                             <img class="logo" src="<?= get_template_directory_uri()?>/assets/images/logo-2.png" alt="Logo">
                         </a>
-                        <p class="mt-">Web-разработчик. Опыт с 2016 года. В основном занимаюсь фронтендом. Люблю делать красивости.</p>
+                        <p class="mt-">Web-разработчик. Опыт с 2016 года. В основном занимаюсь фронтендом. Создаю красоту.</p>
                         <ul>
                             <li><a href="https://vk.com/acigankov" target="_blank"><i class="lni lni-vk"></i></a></li>
                             <li><a href="https://github.com/acigankov" target="_blank"><i class="lni lni-github-original"></i></a></li>

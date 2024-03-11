@@ -18,7 +18,7 @@
                     </div>
                     <div class="service-content">
                         <h4 class="service-title">Верстка под напильником</h4>
-                        <p>Доработки и рекомендации по Вашему макету</p>
+                        <p>Доработки и рекомендации по макету</p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="service-content">
                         <h4 class="service-title">Работа с графикой</h4>
-                        <p>Подготовка материалов, графики и картинок для закгрузки в CMS. </p>
+                        <p>Подготовка материалов, графики и картинок для загрузки в CMS. </p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="service-content">
                         <h4 class="service-title">Мобильная адаптация</h4>
-                        <p>Разработка, доработка и верстка Ваших дизайнов под мобилки</p>
+                        <p>Разработка, доработка и верстка дизайнов под мобилки</p>
                     </div>
                 </div> <!-- single service -->
             </div>
@@ -50,7 +50,7 @@
                         <i class="lni-vector"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title">Разрабтка логики</h4>
+                        <h4 class="service-title">Разработка логики</h4>
                         <p>Анимации, декорации и логика интерфейса. То, что остается "за кадром" для пользователя</p>
                     </div>
                 </div> <!-- single service -->
@@ -61,7 +61,7 @@
                         <i class="lni-website"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title">Web Раззрабтка</h4>
+                        <h4 class="service-title">Web Раззработка</h4>
                         <p>Полный цикл подготовки, верстки шаблона, натяжки на CMS. Разработка интерфейсов</p>
                     </div>
                 </div> <!-- single service -->

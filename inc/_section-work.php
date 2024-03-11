@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center  pb-25">
-                    <h2 class="title">Выполненые работы</h2>
+                    <h2 class="title">Выполненные работы</h2>
                     <p>Все работы выполнены с чувством долга, любовью и максимально ответственностью. Ни один файлик в интернете не пострадал.</p>
                 </div> <!-- section title -->
             </div>
