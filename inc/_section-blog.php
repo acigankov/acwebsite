@@ -14,7 +14,7 @@
             <?php //собираем посты по типу
             $thisPostId = get_the_ID();
             $posts = get_posts(array(
-                'numberposts' => 6,
+                'numberposts' => 3,
                 'post_type' => 'post',
                 'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
             ));

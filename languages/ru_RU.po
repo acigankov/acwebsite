@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
 "POT-Creation-Date: 2020-04-17T21:03:15+00:00\n"
-"PO-Revision-Date: 2023-12-11 20:19+0300\n"
+"PO-Revision-Date: 2023-12-18 19:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -69,9 +69,9 @@ msgstr "Один комментарий о &ldquo;%1$s&rdquo;"
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Комменты"
-msgstr[1] "%1$s комментарий к &ldquo;%2$s&rdquo;"
-msgstr[2] ""
+msgstr[0] "%1$s комментарий &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев &ldquo;%2$s&rdquo;"
 
 #: comments.php:68
 msgid "Comments are closed."
@@ -169,7 +169,7 @@ msgstr[2] ""
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Вы искали: %s"
 
 #: single.php:23
 msgid "Previous:"
@@ -194,6 +194,8 @@ msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Ничего не нашлось по Вашему запросу :(  Попробуйте поискать по другим "
+"ключевым словам."
 
 #: template-parts/content-none.php:44
 msgid ""
@@ -209,3 +211,13 @@ msgstr ""
 #: template-parts/content.php:40
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
+
+#. translators: %s: label in searchinput
+msgctxt "search placeholder"
+msgid "Search..."
+msgstr "Поиск…"
+
+#. translators: %s: submit button
+msgctxt "submit button"
+msgid "Search"
+msgstr "Найти"

@@ -1087,3 +1087,29 @@ h4.blog-title {
 .cat-links {
 	margin-bottom: 12px;
 }
+
+/*search form*/
+.search-form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.search-label {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.single-form {
+	margin-top: 0;
+}
+
+.single-form input, .single-form textarea {
+	width: 100%;
+}
+
+input.search-submit {
+	min-width: 130px;
+	color: #ffffff;
+}

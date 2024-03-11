@@ -9,27 +9,14 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php
-			acwebsite_posted_on();
-			acwebsite_posted_by();
-			?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php acwebsite_post_thumbnail(); ?>
-
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
-	<footer class="entry-footer">
-		<?php acwebsite_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+<div class="col-lg-4 col-md-8">
+    <div class="single-blog mt-30">
+        <div class="blog-image">
+            <?= the_post_thumbnail( 'full' );?>
+        </div>
+        <div class="blog-content">
+            <h4 class="blog-title"><a href="<?= the_permalink()?>"><?= the_title()?></a></h4>
+            <span><time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished"><?php echo get_the_date(); ?></time></span>
+        </div>
+    </div> <!-- single blog -->
+</div><!-- #post-<?php the_ID(); ?> -->

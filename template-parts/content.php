@@ -65,7 +65,7 @@
     </article><!-- #post-<?php the_ID(); ?> -->
 <?php endif; ?>
 
-<?php if (is_category()) : ?>
+<?php if (is_category() || is_tag() || is_search() ) : ?>
     <div class="col-lg-4 col-md-8">
         <div class="single-blog mt-30">
             <div class="blog-image">

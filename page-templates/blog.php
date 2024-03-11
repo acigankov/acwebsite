@@ -15,6 +15,12 @@ get_header('static');
                     <!-- section title -->
                 </div>
 
+                <div>
+
+                </div>
+
+                <?php get_search_form( [false]); ?>
+
                 <div class="row justify-content-center mb-30">
                     <?php //собираем посты по типу
                     $thisPostId = get_the_ID();
