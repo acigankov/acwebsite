@@ -61,7 +61,7 @@
                         <i class="lni-website"></i>
                     </div>
                     <div class="service-content">
-                        <h4 class="service-title">Web Раззработка</h4>
+                        <h4 class="service-title">Web Разработка</h4>
                         <p>Полный цикл подготовки, верстки шаблона, натяжки на CMS. Разработка интерфейсов</p>
                     </div>
                 </div> <!-- single service -->
