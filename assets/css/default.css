@@ -1113,3 +1113,7 @@ input.search-submit {
 	min-width: 130px;
 	color: #ffffff;
 }
+
+.post-thumbnail {
+	text-align: center;
+}
